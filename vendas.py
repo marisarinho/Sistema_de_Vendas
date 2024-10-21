@@ -3,8 +3,7 @@ from pprint import pprint
 print('Bem vindo ao nosso sistema de vendas! Aqui você poderá cadastrar produtos e fazer pedidos.')
 print()
 
-dados = {"produtos": [],
-         "pedidos": []}
+dados = {"produtos": []}
 
 def cadastrado():
     desc = input('Descrição do produto: ')  
